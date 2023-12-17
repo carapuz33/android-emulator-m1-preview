@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-12-17T06:36:27.049Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" version="22.1.11" etag="yCZlmVIIBXU6S40nbekS" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-17T06:49:51.370Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="YHO83EpSYd35Vww0o84d" version="22.1.11" type="github">
   <diagram name="Страница — 1" id="Ht7iqdWoheNBvx0QvMiG">
-    <mxGraphModel>
+    <mxGraphModel dx="1234" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ueoMJOof5Bcx-Jk8zz3H-16" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="310" width="860" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="ueoMJOof5Bcx-Jk8zz3H-17" value="Руководитель проектов" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="ueoMJOof5Bcx-Jk8zz3H-16">
+          <mxGeometry y="20" width="860" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="ueoMJOof5Bcx-Jk8zz3H-21" value="Руководитель проекта создает &quot;проектную задачу&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;bpmnShapeType=task;" vertex="1" parent="ueoMJOof5Bcx-Jk8zz3H-17">
+          <mxGeometry x="30" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ueoMJOof5Bcx-Jk8zz3H-23" value="Проектной задаче устанавливается статус &quot;Новая&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=script;" vertex="1" parent="ueoMJOof5Bcx-Jk8zz3H-17">
+          <mxGeometry x="210" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ueoMJOof5Bcx-Jk8zz3H-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ueoMJOof5Bcx-Jk8zz3H-17" source="ueoMJOof5Bcx-Jk8zz3H-21" target="ueoMJOof5Bcx-Jk8zz3H-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ueoMJOof5Bcx-Jk8zz3H-24" value="Руководитель проектов назначает исполнителя проектно задачи(Куратора)" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" vertex="1" parent="ueoMJOof5Bcx-Jk8zz3H-17">
+          <mxGeometry x="433" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ueoMJOof5Bcx-Jk8zz3H-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ueoMJOof5Bcx-Jk8zz3H-17" source="ueoMJOof5Bcx-Jk8zz3H-23" target="ueoMJOof5Bcx-Jk8zz3H-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ueoMJOof5Bcx-Jk8zz3H-25" value="Исполнитель получает уведомление, что ему назначена задача" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=send;" vertex="1" parent="ueoMJOof5Bcx-Jk8zz3H-17">
+          <mxGeometry x="433" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ueoMJOof5Bcx-Jk8zz3H-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="ueoMJOof5Bcx-Jk8zz3H-17" source="ueoMJOof5Bcx-Jk8zz3H-24" target="ueoMJOof5Bcx-Jk8zz3H-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ueoMJOof5Bcx-Jk8zz3H-18" value="Куратор" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="ueoMJOof5Bcx-Jk8zz3H-16">
+          <mxGeometry y="440" width="860" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ueoMJOof5Bcx-Jk8zz3H-29" value="Куратор ознакамливается с задачей" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;" vertex="1" parent="ueoMJOof5Bcx-Jk8zz3H-18">
+          <mxGeometry x="30" y="100" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ueoMJOof5Bcx-Jk8zz3H-19" value="Lane 3" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="ueoMJOof5Bcx-Jk8zz3H-16">
+          <mxGeometry y="720" width="860" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ueoMJOof5Bcx-Jk8zz3H-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ueoMJOof5Bcx-Jk8zz3H-16" source="ueoMJOof5Bcx-Jk8zz3H-24" target="ueoMJOof5Bcx-Jk8zz3H-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
