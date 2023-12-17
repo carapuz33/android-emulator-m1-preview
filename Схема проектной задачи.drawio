@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-17T10:32:46.493Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="X4eVruo9ip277PQaa96E" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-17T11:56:03.158Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="Minuzm8eTrYbpHF30ZHn" version="22.1.11" type="github">
   <diagram name="Страница — 1" id="Ht7iqdWoheNBvx0QvMiG">
     <mxGraphModel dx="1234" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,7 +146,7 @@
             <mxPoint x="107" y="-40" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7IDKw4JeVB-PweRURtg8-12" value="Устанавливает статус &amp;nbsp;&quot;Готова к заказу декомпозиция&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" vertex="1" parent="ueoMJOof5Bcx-Jk8zz3H-18">
+        <mxCell id="7IDKw4JeVB-PweRURtg8-12" value="Устанавливает статус &amp;nbsp;&quot;Готова к заказу выполнена&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" vertex="1" parent="ueoMJOof5Bcx-Jk8zz3H-18">
           <mxGeometry x="1030" y="250" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7IDKw4JeVB-PweRURtg8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" edge="1" parent="ueoMJOof5Bcx-Jk8zz3H-18" source="7IDKw4JeVB-PweRURtg8-7" target="7IDKw4JeVB-PweRURtg8-12">
@@ -157,7 +157,7 @@
             <mxPoint x="-30" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7IDKw4JeVB-PweRURtg8-15" value="Устанавливает статус &amp;nbsp;&quot;Готова к заказу декомпозиция&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" vertex="1" parent="ueoMJOof5Bcx-Jk8zz3H-18">
+        <mxCell id="7IDKw4JeVB-PweRURtg8-15" value="Устанавливает статус &amp;nbsp;&quot;Выполнена&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" vertex="1" parent="ueoMJOof5Bcx-Jk8zz3H-18">
           <mxGeometry x="1040" y="410" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7IDKw4JeVB-PweRURtg8-17" value="Создает под.задачи по шаблону &quot;Проектная задача&quot;" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=manual;" vertex="1" parent="ueoMJOof5Bcx-Jk8zz3H-18">
